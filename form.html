@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <form action="" method="">
+            
+            <tr>
+                <td><label for="user">帳號</label></td>
+                <td><input type="text" name="user" id="user"></td>
+            </tr>
+            <tr>
+                <td><label for="pw">密碼</label></td>
+                <td><input type="password" name="pw" id="pw"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td> <label for="birth">生日</label></td>
+                <td><input type="date" name="birth" id="birth"></td>
+            </tr>
+            <tr>
+                <td><label for="number">數量</label></td>
+                <td><input type="number" name="number" id="number"></td>
+            </tr>
+            <tr>
+                <td><label>性別</label></td>
+                <td>
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">男</label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">女</label>
+                    <input type="radio" name="gender" id="unknown">
+                    <label for="unknown">不透露</label>
+                </td>
+            </tr>
+            <!-- 
+                多重選取 Ctrl + D
+
+            -->
+            <tr>
+                <td><label>興趣</label></td>
+                <td>
+                    <input type="checkbox" name="hobby" id="eat">
+                    <label for="eat">吃</label>
+                    <input type="checkbox" name="hobby" id="drink">
+                    <label for="drink">喝</label>
+                    <input type="checkbox" name="hobby" id="play">
+                    <label for="play">玩</label>
+                    <input type="checkbox" name="hobby" id="happy">
+                    <label for="happy">樂</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="edu">學歷</label></td>
+                <td>
+                    <select name="edu" id="edu">
+                        <option>--請選擇--</option>
+                        <option value="國小">國小</option>
+                        <option value="國中">國中</option>
+                        <option value="高中職">高中職</option>
+                        <option value="大專院校">大專院校</option>
+                        <option value="研究所以上">研究所以上</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="content">內容</label></td>
+                <td>
+                    <textarea name="content" id="content" cols="30" rows="10"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <!-- 表單內建議使用 -->
+                    <input type="submit" value="送出">
+                    <input type="reset">
+                    <input type="button" value="自訂義">
+                    <br>
+                    <!-- 表單外使用 -->
+                    <button type="submit">送出</button>
+                    <button type="reset">重設</button>
+                    <button type="button">自訂義</button>
+                </td>
+            </tr>
+        </form>
+    </table>
+
+    <form action="">
+        <fieldset>
+            <!-- fieldset不可與表格合用 -->
+            <legend>學生資料表</legend>
+            <label for="">姓名</label>
+            <input type="text">
+            <br>
+            <label for="">電話</label>
+            <input type="text">
+            <br>
+            <input type="submit">
+        </fieldset>
+    </form>
+</body>
+</html>
