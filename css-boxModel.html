@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 萬用選取器 */
+        * {
+            box-sizing: border-box;
+            /* border-box,content-box */
+            font-family: 'Segoe UI';
+
+        }
+        body {
+            margin: 0; 
+            height: 300px;
+        }
+        .box {
+            width: 100%;/* px,%,vw */
+            height: 100%;/* px,%,vh */
+            /* 一定要有父層的高度才可使用% */
+            background-color: #fa0;
+            border:#2f0e0e 10px solid ;
+            /* 
+                solid,double,dotted,dashed
+                inset,outset,groove,ridge
+            */
+            /* border-left:#61deee 10px solid ;
+            border-right:#edff4b 10px solid ;
+            border-top:#ca3737 10px solid ;
+            border-bottom:#85e743 10px solid ; */
+            /* border-left-color: #000;
+            border-left-style: solid;
+            border-left-width: 10px;
+            border-right-color: #000;
+            border-right-style: solid;
+            border-right-width: 10px;
+            border-top-color: #000;
+            border-top-style: solid;
+            border-top-width: 10px;
+            border-bottom-color: #000;
+            border-bottom-style: solid;
+            border-bottom-width: 10px; */
+            padding: 20px;
+            /* padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 30px;
+            padding-bottom: 30px; */
+
+            /* margin: 30px; */
+            
+            margin: 30px auto;
+            /* 上下 左右 */
+
+            margin: 30px auto 100px;
+            /* 上 左右 下 */
+
+            margin: 30px auto 100px auto;
+            /* 上 右 下 左 */
+            
+            /* margin-left: auto;
+            margin-right: auto;
+            margin-top: 30px;
+            margin-bottom: 30px; */
+
+        }
+        /* 
+            預設狀態下
+            元素總寬度 = width + padding + border
+            元素總高度 = height + padding + border
+        */
+    </style>
+</head>
+<body>
+    <div class="box">
+        BOX
+    </div>
+    <div class="box">
+        BOX
+    </div>
+    <div class="box">
+        BOX
+    </div>
+    <div class="box">
+        BOX
+    </div>
+    <div class="box">
+        BOX
+    </div>
+    <div class="box">
+        BOX
+    </div>
+    <div class="box">
+        BOX
+    </div>
+    <div class="box">
+        BOX
+    </div>
+    <div class="box">
+        BOX
+    </div>
+</body>
+</html>
