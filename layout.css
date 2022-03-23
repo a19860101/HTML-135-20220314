@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI','微軟正黑體';
+    margin: 0;
+    padding: 0;
+}
+nav {
+    width: 100%;
+    text-align: center;
+    background-color: #222;
+    padding: 20px 0;
+    position: fixed;
+}
+nav a {
+    color: #eee;
+    text-decoration: none;
+    margin: 0 15px;
+}
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://picsum.photos/id/10/1920/1080');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.container {
+    width: 1200px;
+    margin: auto;
+    display: flow-root;
+}
+.about-item {
+    float: left;
+    width: calc(100% / 3);
+    padding: 15px;
+}
+.service-item {
+    float: left;
+    width: calc(100% / 4);
+    padding: 15px;
+}
+.product-item {
+    float: left;
+    width: calc(100% / 5);
+    padding: 15px;
+}
+img {
+    width: 100%;
+}
+#service {
+    background-color: #fff0ad;
+}
+h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
