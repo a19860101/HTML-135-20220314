@@ -23,6 +23,8 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+    background-attachment: fixed;
 }
 section {
     padding-top: 150px;
@@ -59,4 +61,12 @@ h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 30px;
+}
+
+footer {
+    background-color: #111;
+    color: #eee;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
