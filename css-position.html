@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            height: 3000px;
+        }
+        .box {
+            width: 200px;
+            padding: 10px;
+            background-color: #ff6d6d;
+            position: relative;
+            top: 30px;
+            left: 30px;
+            z-index: 10;
+        }
+        /* 
+            定位
+            靜態 static
+            相對 relative (top,bottom,left,right,z-index)
+            絕對 absolute (top,bottom,left,right,z-index)
+            固定 fixed
+        */
+        .box2 {
+            width: 200px;
+            padding: 10px;
+            background-color: #68edff;
+            position: relative;
+            z-index: 11;
+        }
+        .container {
+            width: 800px;
+            height: 600px;
+            background-color: #ccc;
+            position: relative;
+        }
+        .box3 {
+            width: 200px;
+            padding: 10px;
+            background-color: #ffcc3e;
+            position: absolute;
+
+            top: 0;
+            right: 0;
+            z-index: 10;
+        }
+        .box4 {
+            width: 200px;
+            padding: 10px;
+            background-color: #ff3131;
+            position: absolute;
+
+            top: 100px;
+            right: 100px;
+            z-index: 9;
+        }
+        .box5 {
+            width: 200px;
+            height: 200px;
+            background-color: #ff2abf;
+            position: fixed;
+            left: 0;
+            top :0;
+            z-index: 99;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>title</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga, vel!
+        </p>
+    </div>
+    <div class="box2">
+        <h2>title 2</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, similique!
+        </p>
+    </div>
+    <div class="container">
+        <div class="box3">
+            <h2>title 3</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, similique!
+            </p>
+        </div>
+        <div class="box4">
+            <h2>title 4</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, similique!
+            </p>
+        </div>
+    </div>
+    <div class="box5"></div>
+</body>
+</html>

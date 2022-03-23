@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 1200px;
+            margin: auto;
+            /* background-color: #aaa; */
+
+            /* height: 300px; */
+            /* display: flow-root */
+            overflow: auto;
+        }
+        .box {
+            width: 25%;
+
+            float: left;
+        }
+        /* 
+        *float缺點
+        父元素會被浮動影響
+
+        解決方式
+        1. 給高度
+        2. flow-root
+        3. overflow
+        */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex doloremque, quos temporibus numquam, voluptatibus asperiores, expedita similique error aperiam possimus incidunt illo maiores assumenda saepe non fuga nostrum dolorem.
+            </p>
+        </div>
+        <div class="box">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex doloremque, quos temporibus numquam, voluptatibus asperiores, expedita similique error aperiam possimus incidunt illo maiores assumenda saepe non fuga nostrum dolorem.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex doloremque, quos temporibus numquam, voluptatibus asperiores, expedita similique error aperiam possimus incidunt illo maiores assumenda saepe non fuga nostrum dolorem.
+            </p>
+        </div>
+        <div class="box">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex doloremque, quos temporibus numquam, voluptatibus asperiores, expedita similique error aperiam possimus incidunt illo maiores assumenda saepe non fuga nostrum dolorem.
+            </p>
+        </div>
+        <div class="box">
+            <h2>title</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate ex doloremque, quos temporibus numquam, voluptatibus asperiores, expedita similique error aperiam possimus incidunt illo maiores assumenda saepe non fuga nostrum dolorem.
+                Lorem ipsum dolor sitt consectetur adipisicing elit. Cupiditate ex doloremque, quos temporibus numquam, voluptatibus asperiores, expedita similique error aperiam possimus incidunt illo maiores assumenda saepe non fuga nostrum dolorem.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
